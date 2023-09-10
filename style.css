@@ -1,0 +1,480 @@
+nav{
+    width: 40%;
+    margin:4rem auto;
+}
+nav > .logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ 
+    width: 200px;
+    margin: auto;
+}
+nav > .logo img{
+    width: 87px ;
+    height: 40px;
+}
+nav> .logo span{
+    color: #FF42A5 ;
+}
+nav a{
+    margin-top: 1rem;
+    
+    text-align: center;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+nav button{
+    border: none;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 16px;
+    margin:2rem auto;
+    cursor: pointer;
+    border-radius: 8px;
+}
+nav i{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+footer > .nav{
+    width: 40%;
+    margin:4rem auto;
+}
+footer > .nav > .logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ 
+    width: 200px;
+    margin: auto;
+}
+footer .nav > .logo img{
+    width: 87px ;
+    height: 40px;
+}
+footer .nav> .logo span{
+    color: #FF42A5 ;
+}
+footer .nav a{
+    margin-top: 1rem;
+    
+    text-align: center;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+/* like game */
+.like-game{
+    width: 80%;
+    margin: auto;
+}
+.like-game img{
+    width: 100%;
+}
+.like-game-two{
+    background: rgba(209, 126, 177, 0.089);
+    text-align: center;
+    padding:2rem 1rem;
+    margin:4rem auto;
+
+}
+.like-game-two h1{
+    text-transform: uppercase;
+}
+.like-game-two > .goat-header{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 10vw;
+
+}
+
+.like-game-two ul{
+    list-style: none;
+    text-align: left;
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+.like-game-two ul li{
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-group{
+    display: flex;
+    width: 250px;
+    margin: auto;
+   
+    justify-content: space-between;
+}
+.btn-group button{
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.btn-group button:first-child{
+    background-color: #FF42A5;
+}
+.btn-group button:last-child{
+    background-color: #4EC5F7;
+}
+
+/* we are gamer */
+.we-are-gamer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.we-are-gamer img{
+    width: 100%;
+}
+.we-are-gamer-two{
+    width: 60%;
+    margin: auto;
+   
+}
+.we-are-gamer-two h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 6vw;
+font-weight: bold;
+}
+.we-are-gamer-two p{
+    color: #534C64;
+}
+.we-are-gamer-two button{
+    border: none;
+    padding: 1rem;
+    border-radius: 48px;
+    background: #FF42A5;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.we-are-gamer-two h4,h3{
+    color: gray;
+}
+
+/* onlne-game */
+.online-game{
+   width: 80%;
+   margin:4rem auto;
+   text-align: center;
+}
+.online-game h1{
+    font-size: 48px;
+}
+.online-game span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.online-game p{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+.online-game-container{
+   
+    
+}
+
+
+/* play instantly */
+.play-instantly{
+    width: 80%;
+    margin: auto;
+}
+.play-instantly-one span{
+    color: #F948B2;
+}
+.play-instantly-one h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.play-instantly-one p{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.play-instantly-two{
+    width: 80%;
+    margin: auto;
+}
+
+.image-one{
+    position: relative;
+    width: 100%;
+}
+.image-two{
+   position: absolute;
+    margin-top: 50%;
+    left: 50px;
+    width: 20%;
+}
+
+
+/* careers */
+.careers{
+    background: #FF42A5 ;
+   margin-top: 10rem;
+   padding: 5rem;
+  
+}
+.careers h1,p{
+    color: white;
+}
+.careers p{
+    color: #FFF;
+font-family: Work Sans;
+
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.list{
+    display: flex;
+    color: white;
+}
+.list ul{
+    color: #FFF;
+    font-family: Work Sans;
+    list-style: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+}
+
+.career-image img{
+    width: 100%;
+    padding: 1rem;
+}
+.career-text button{
+    border: none;
+  color: #FF42A5 ;
+  text-transform: uppercase;
+  font-weight: bold;
+    border-radius: 48px;
+background: #FFF;
+padding: 1rem;
+}
+
+
+/* games */
+.games{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.games p{
+    color: #0B0223;
+}
+.game-name{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    
+}
+.game-name:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+/* footer */
+footer{
+    background: #0B0223;
+    color: white;
+    padding: 1rem;
+}
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+.nav ul li{
+    margin: 1rem;
+}
+footer p{
+    text-align: center;
+}
+
+@media only screen and (min-width: 800px){
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    }
+    nav a{
+       display: flex;
+        
+       gap: 2rem;
+       width: 10%;
+       align-items: center;
+    }
+
+    .like-game{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .like-game img{
+        width: 40%;
+        
+    }
+    .like-game-two{
+        background: transparent;
+        text-align: center;
+       width: 40%;
+       
+    
+    }
+    .like-game-two > .goat-header{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+    
+    }
+
+    .we-are-gamer{
+        width: 80%;
+        margin: auto;
+        text-align: right;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .we-are-gamer img{
+        width: 50%;
+    }
+    .we-are-gamer-two{
+        width: 50%;
+        margin: auto;
+       
+    }
+    .we-are-gamer-two h1{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3vw;
+    font-weight: bold;
+    }
+    .online-game{
+        width: 80%;
+        margin:4rem auto;
+        text-align: center;
+        
+     }
+     .online-game-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+    
+     }
+     .online-game-card{
+        width: 20%;
+     }
+     .online-game-card img{
+        width: 100%;
+     }
+
+     .play-instantly{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .play-instantly-one{
+        width: 40%;
+    }
+    .play-instantly-one span{
+        color: #F948B2;
+    }
+    .play-instantly-one h1{
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 125% */
+    }
+    
+    .play-instantly-two{
+        width: 40%;
+        margin: auto;
+    }
+
+    .image-one{
+        position: relative;
+        width: 100%;
+    }
+    .image-two{
+       position: absolute;
+        margin-top: 20%;
+        left: 100px;
+        width: 15%;
+    }
+
+    .careers{
+        background: #FF42A5 ;
+       margin-top: 10rem;
+       padding: 5rem;
+       display: flex;
+      
+    }
+    .career-text{
+        width: 70%;
+    }
+
+
+   
+}
+
+
